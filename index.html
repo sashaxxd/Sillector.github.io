@@ -1,0 +1,62 @@
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script type="text/javascript" src="jquerymin.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</head>
+	<body>
+		<style type="text/css">
+			#slide_1 {
+				background: green;
+
+			}
+			#slide_2 {
+				background: yellow;
+
+			}
+			#slide_3  {
+				background: white;
+
+			}
+			#slide_4  {
+				background: orange;
+
+			}
+			#player  {
+				background: brown;
+
+			}
+		</style>
+		<div class="slider_base">
+				<div class="slide" id="slide_1">1<textarea>123</textarea></div>
+				<div class="slide" id="slide_2">2</div>
+				<div class="slide" id="slide_3">3</div>
+				<div class="slide" id="slide_4">4</div>
+		</div>
+
+		<div class="slider">
+			<div class="vertical_scrol">
+				<div class="slider_scrol"></div>
+				<div class="slide" id="player">player</div>
+			</div>
+		</div>
+
+
+		<script type="text/javascript">
+			$($('.slider_base .slide')[0]).clone().appendTo($(".slider .slider_scrol"));
+		</script>
+
+
+
+
+
+
+		<button id="go_slider_1_slide_1">1</button><button id="go_slider_1_slide_2">2</button>
+		<button id="go_slider_1_slide_3">3</button><button id="go_slider_1_slide_4">4</button>
+		<button id="go_slider_Slider_none">Slider_none</button>
+		<button id="go_slider_Player">Player</button>
+	</body>
+
+</html>
