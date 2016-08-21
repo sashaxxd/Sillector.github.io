@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="background/background_main_obj" itemID="56c0a44e-0000005f" lastModified="1455465550" lastUniqueIdentifier="11">
+  <timeline>
+    <DOMTimeline name="background_main_obj">
+      <layers>
+        <DOMLayer name="Слой 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="background/background_main_color.png">
+                  <matrix>
+                    <Matrix tx="-320" ty="-175"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMSymbolInstance libraryItemName="background/background_main_rotating_rectangles_obj" name="rotating_rectangles_1" selected="true">
+                  <matrix>
+                    <Matrix tx="0.8" ty="10"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

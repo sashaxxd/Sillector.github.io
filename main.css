@@ -1,37 +1,43 @@
+@font-face {
+	font-family: TTDrugs;
+	src: url(fonts/TTDrugs-Thin.eot#iefix) format('embedded-opentype'),
+	     url(fonts/TTDrugs-Thin.woff) format('woff'),
+   	     url(fonts/TTDrugs-Thin.otf) format('opentype');
+		 }
 body{
-	background: #aaa;
-}
-.slider{
-	
-	white-space: nowrap;
-	width: 600px;
-	height: 400px;
-	background: red;
-	overflow: hidden;
-}
-.slider .slide{
-	letter-spacing: normal;
-	line-height: normal;
-	position: relative;
+	margin: 0;
+	padding: 0;
+	background: #fff;
 	width: 100%;
 	height: 100%;
-	display: inline-block;
-	overflow: hidden;
 }
-.slider .slider_scrol{
 
-	letter-spacing: -0.3em;
-	line-height: 0;
-	white-space: nowrap;
-	position: relative;
-	left: 0;
-
-
+#title{    
+	color: #000;
+    display: block;
+    margin: 40px auto;
+    width: 200px;
+    font-size: 34px;
+    font-family: TTDrugs;
 }
-.slider .vertical_scrol{
-	position: relative;
-	top: 0;
 
-
+#game_window{
+	display: block;
+	margin: 0 auto;
+	width: 840px;
+	height: 350px;
+	background: #000;
 }
-.slider_base{display: none;}
+#full_scrin_button{
+	display: block;
+	margin: 0 auto;
+    width: 172px;
+    height: 60px;
+    font-size: 24px;
+    font-family: TTDrugs;
+    color: #fb890f;
+}
+#full_scrin_button:hover{
+	cursor: pointer;	
+    color: #ff0505;
+}
